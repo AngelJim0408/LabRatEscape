@@ -8,4 +8,10 @@ public class Rat : MonoBehaviour
         // TODO: Add Animation
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
     }
+
+    public void Win() {
+        Debug.Log("Player Won!");
+        // TODO: Move to next scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // TEMP: Reload the current scene
+    }
 }
