@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 5924049397671774119}
   - component: {fileID: 5793311888319835885}
   - component: {fileID: 1738684315680532118}
+  - component: {fileID: 3163664624115393825}
   - component: {fileID: 4967638663469406852}
   m_Layer: 0
   m_Name: Rat
@@ -318,6 +319,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56c60fb44db4fd140a86d00d99b4419f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Rat
+--- !u!114 &3163664624115393825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354353537495641441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f9230e419b8534a9ad622b5edfd802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RatCarry
+  pickupKeycode: 101
+  carryObj: {fileID: 0}
 --- !u!114 &4967638663469406852
 MonoBehaviour:
   m_ObjectHideFlags: 0
